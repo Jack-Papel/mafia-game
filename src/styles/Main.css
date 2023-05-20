@@ -54,9 +54,13 @@
     /* align-items: center;
     justify-content: center; */
 }
+@font-face {
+    font-family: DyslexiaFont;
+    src: url("../../public/dyslexia-font.ttf");
+}
 .clearer-text * {
     -webkit-text-stroke: unset !important;
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif !important;
+    font-family: DyslexiaFont, 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif !important;
     letter-spacing: 0.15ch !important;
     word-spacing: 0.225ch !important; /* 3.5x letter-spacing */
     font-variant-ligatures: none; /* explicitly disable ligatures */
